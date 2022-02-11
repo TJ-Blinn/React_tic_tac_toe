@@ -18,6 +18,12 @@ const Game = () => {
     const historyPoint = history.slice(0, stepNumber + 1);
     const current = historyPoint[stepNumber];
     const squares = [...current];
+
+    if (squares[i] !== null) {
+      alert("already clicked");
+      return;
+    }
+
     // return if won or (squares [i] is) occupied
     if (winner || squares[i]) return;
     // select square depending on turn (according to var xO)
