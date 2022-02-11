@@ -27,6 +27,12 @@ const Game = () => {
     setXisNext(!xIsNext);
   };
 
+  // xisNext will look for a remainder, if divisible by 2, it should be on O, else on X
+  const jumpTo = (step) => {
+    setStepNumber(step);
+    setXisNext(step % 2 === 0);
+  };
+
   const renderMoves = () =>
     history.map((_step, move) => {
       const destination = move ? `Go to move # ${move}` : "Go to Start";
