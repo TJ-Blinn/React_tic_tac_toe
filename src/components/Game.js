@@ -33,6 +33,10 @@ const Game = () => {
     setXisNext(!xIsNext);
   };
 
+  // const handleRestart = () => {
+  //   setHistory(Array(9).fill(null));
+  // };
+
   // xisNext will look for a remainder, if divisible by 2, it should be on O, else on X
   const jumpTo = (step) => {
     setStepNumber(step);
@@ -59,6 +63,7 @@ const Game = () => {
           {renderMoves()}
         </div>
         <h3>{winner ? "Winner: " + winner : "Next Player: " + xO} </h3>
+        {/* <button onClick={() => handleRestart()}>Play Again</button> */}
       </div>
     </>
   );
