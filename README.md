@@ -16,6 +16,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## Dependencies
+
+    "papercss": "^1.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.14.4",
+
 ---
 
 <br />
@@ -38,15 +45,16 @@ src/
 
 ```
 
-[Image of base game before start] (https://github.com/TJ-Blinn/React_tic_tac_toe/blob/main/docs/base_app_screenshot.png?raw=true)
+<br />
 
-[Image of base game - winner declared] (https://github.com/TJ-Blinn/React_tic_tac_toe/blob/main/docs/filled-board_winnerpng.png?raw=true)
+### Image of base game before start
 
-[Image of base game - History of each move] (https://github.com/TJ-Blinn/React_tic_tac_toe/blob/main/docs/history%20track.png?raw=true)
+!["Image of base game before start"](https://github.com/TJ-Blinn/React_tic_tac_toe/blob/main/docs/base_app_screenshot.png?raw=true)
 
-## Dependencies
+### Image of base game - winner declared
 
-    "papercss": "^1.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-modal": "^3.14.4",
+!["Image of base game - winner declared"](https://github.com/TJ-Blinn/React_tic_tac_toe/blob/main/docs/filled-board_winnerpng.png?raw=true)
+
+### Image of base game - History of each move
+
+!["Image of base game - History of each move"](https://github.com/TJ-Blinn/React_tic_tac_toe/blob/main/docs/history%20track.png?raw=true)
