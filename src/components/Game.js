@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { calculateWinner } from "../helper";
 import Board from "./Board";
+// import "papercss/dist/paper.min.css";
 
 const Game = () => {
   // initial state of grid is an array of 9 with value of null
