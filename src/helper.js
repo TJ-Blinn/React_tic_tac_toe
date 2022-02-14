@@ -1,6 +1,6 @@
 // ======================================== DECLARING A WINNRER
-
-function calculateWinner(squares) {
+// var lines here is an array of arrays containing each possible win combination
+export function calculateWinner(squares) {
   const lines = [
     [0, 1, 2],
     [3, 4, 5],

@@ -72,3 +72,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ---
 
 ###Tutorial based on Jesse Hall (codeSTACKr) react-tic-tac-toe-hooks [github.com/codeSTACKr](https://github.com/codeSTACKr/react-tic-tac-toe-hooks)
+
+## Folder Structure
+
+```
+src/
+├── components
+│   ├── Board.js
+│   ├── Game.js
+│   └── Square.js
+├── index.css
+├── index.js
+├── helper.js
+
+```
